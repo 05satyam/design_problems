@@ -1,3 +1,9 @@
+/**
+ * this is a main class where app starts.
+
+ * Logger instance will be created and associated with the Root LoggerConfig. Root LoggerConfig will be used when there is no configuration file or when you’re obtaining a logger with name not defined in the logger declarations.
+ * */
+
 package custome_log4j;
 
 import java.io.FileInputStream;
@@ -13,6 +19,7 @@ public class App {
 
 	public static void main(String[] args) {
 		try {
+			//default
 			LogManager.getLogManager().readConfiguration(new FileInputStream("mylogging.properties"));
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -20,6 +27,7 @@ public class App {
 		logger.setLevel(Level.FINE);
 		logger.addHandler(new CustomHandler());
 		try {
+			//custom- high preference 
 			String path = "C:/Users/satyam/Desktop/u.log";
 			Handler fileHandler = new FileHandler(path, 2000, 1);
 			fileHandler.setFormatter(new CustomFormatter());
