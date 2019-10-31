@@ -1,3 +1,14 @@
+/**
+ * Builder pattern builds a complex object using simple objects and 
+ * using a step by step approach. This type of design pattern comes under 
+ * creational pattern as this pattern provides one of the best ways to create an object.
+ * 
+ * 
+ * here, MealBuilder a complex object is assorted form of meal which itself comprises if Verburger and nonvegburger, dew, coca object
+ * Like this there are many small objects which lead to creation of a complex and much bigger object Mealbuilder
+ * 
+ */
+
 package base_classes;
 
 public class Main {
