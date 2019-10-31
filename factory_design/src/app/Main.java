@@ -1,3 +1,7 @@
+/**
+ * basic factory design pattern usage in getting different shape objects as per need 
+ * */
+
 package app;
 
 import baseInterface.Shape;
