@@ -1,0 +1,7 @@
+1. This is a web crawler which will crawl a website and provide u the list of all the websites with keyword present.
+2. This is basic design and can be enhanced with multithreading concept.
+3. here Jsoup library of java has been used.
+4. data base has been created to store the visited url.
+5. DFS has been used.
+6. to make it more user friendly use main method args array to get input from user and then start processing
+7. this project can be expanded according to needs. 
