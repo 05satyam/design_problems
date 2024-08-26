@@ -1,5 +1,5 @@
 class ErrorExtractor:
-    def __init(self, error_type:list=None):
+    def __init__(self, error_type:list=None):
         self.error_type= error_type if error_type  else ["ERROR", "DEBUG", "EXCEPTION"]
 
     def extract_errors(self, log_lines:list=None)->list:
