@@ -1,5 +1,5 @@
 """
-This example is a madeup example just for practice.
+This example is a madeup example just for practice. If you find somewhere similar problem that is coincidence.
 
 Any channel (app, chatbot, human agent etc) calls a central Decision API with customer & context, 
 and it returns a ranked list of next-best-actions, combining rules + ML/LLM + experimentation, 
